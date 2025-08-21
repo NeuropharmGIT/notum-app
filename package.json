@@ -1,0 +1,18 @@
+{
+  "name": "notum-app",
+  "version": "0.1.0",
+  "description": "Notum application - local archiving, analysis and AI coherence project",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --dir"
+  },
+  "dependencies": {
+    "electron": "^28.2.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.6.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
